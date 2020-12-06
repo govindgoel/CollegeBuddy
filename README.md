@@ -2,11 +2,20 @@
 
 ### Backend for CollegeBuddy
 
-Python Commands
+Python Commands <br>
+-> Navigate to backend directory
 
+0. Make sure that you have `Python 3`, `python-3-devel`, `gcc`, `virtualenv`, and `pip` installed.     
 
-`pip install -r requirements.txt` 
-
+1. Create a python 3 virtualenv, and activate the environment.
+    ```bash
+        $ virtualenv -p python3 .
+        $ source bin/activate
+    ```   
+2. Install the project dependencies from `requirements.txt`
+    ```
+        $ pip install -r requirements.txt
+Then:
 `python manage.py makemigrations` 
 
 `python manage.py migrate` 
